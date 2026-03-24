@@ -1,0 +1,24 @@
+# LEGO example: B2 NiAl intermetallic
+# Demonstrates multi-species structure
+
+structure       B2
+lattice_const   2.887
+mass            26.982
+mass1           58.693
+
+box_x           30
+box_y           30
+box_z           30
+box_mode        periodic
+
+epsilon         1.0e-6
+startnr         1
+outfile         NiAl_B2.imd
+output_format   imd
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

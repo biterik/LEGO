@@ -1,0 +1,25 @@
+# FCC Copper - LAMMPS data format output
+# Default (100) orientation
+
+structure       fcc
+lattice_const   3.615
+mass            63.546
+
+box_x           36.15
+box_y           36.15
+box_z           36.15
+
+box_mode        periodic
+output_format   lammps
+outfile         Cu_fcc.lmp
+
+epsilon         1.0e-6
+startnr         1
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

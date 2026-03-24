@@ -1,0 +1,24 @@
+# LEGO example: L12 Ni3Al
+# Demonstrates L12 ordered structure
+
+structure       L12
+lattice_const   3.567
+mass            26.982
+mass1           58.693
+
+box_x           40
+box_y           40
+box_z           40
+box_mode        periodic
+
+epsilon         1.0e-6
+startnr         1
+outfile         Ni3Al_L12.lmp
+output_format   lammps
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

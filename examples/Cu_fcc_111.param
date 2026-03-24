@@ -1,0 +1,27 @@
+# LEGO example: FCC Copper in (111) orientation
+# Demonstrates LAMMPS output format
+
+structure       fcc
+lattice_const   3.615
+mass            63.546
+
+# Orient: x->[11-2], z->[111]
+new_z           1 1 1
+new_x           1 1 -2
+
+box_x           50
+box_y           50
+box_z           50
+box_mode        periodic
+
+epsilon         1.0e-6
+startnr         1
+outfile         Cu_fcc_111.lmp
+output_format   lammps
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

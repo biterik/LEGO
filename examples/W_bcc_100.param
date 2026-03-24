@@ -1,0 +1,25 @@
+# BCC Tungsten - (100) orientation
+# No rotation, basic cube
+
+structure       bcc
+lattice_const   3.1652
+mass            183.84
+
+box_x           50
+box_y           50
+box_z           50
+
+box_mode        periodic
+output_format   imd
+outfile         W_bcc_100.imd
+
+epsilon         1.0e-6
+startnr         1
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

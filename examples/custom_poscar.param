@@ -1,0 +1,23 @@
+# LEGO example: Using a custom POSCAR file
+# Demonstrates loading structure from POSCAR
+
+structure       poscar
+structure_file  structures/fcc.poscar
+lattice_const   4.05
+
+box_x           50
+box_y           50
+box_z           50
+box_mode        periodic
+
+epsilon         1.0e-6
+startnr         1
+outfile         custom.imd
+output_format   imd
+
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

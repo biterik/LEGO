@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use LEGO in your research, please cite it as below."
+type: software
+title: "LEGO - Lattice Elemental Geometry Operations"
+version: "2.0.0"
+date-released: "2026-01-01"
+license: GPL-3.0
+authors:
+  - family-names: "Bitzek"
+    given-names: "Erik"
+    orcid: "https://orcid.org/0000-0001-7430-3694"
+keywords:
+  - crystal structure
+  - molecular dynamics
+  - atomistic simulation
+  - lattice generation
+repository-code: ""
+abstract: "Crystal structure generator for molecular dynamics simulations. Creates arbitrarily rotated and cut crystal structures in IMD and LAMMPS data formats."

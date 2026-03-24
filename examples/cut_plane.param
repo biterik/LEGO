@@ -1,0 +1,26 @@
+# LEGO example: Crystal with cut planes
+# Demonstrates cutting a half-space
+
+structure       fcc
+lattice_const   3.615
+mass            63.546
+
+box_x           50
+box_y           50
+box_z           50
+box_mode        exact
+
+epsilon         1.0e-6
+startnr         1
+outfile         Cu_cut.imd
+output_format   imd
+
+# Cut away atoms with x < 10
+cut_norm1       1.0 0.0 0.0
+plane_distance1 10.0
+cutdir1         -1
+
+# No second cut
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0

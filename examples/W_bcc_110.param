@@ -1,0 +1,28 @@
+# LEGO example: BCC Tungsten in (110) orientation
+# Demonstrates crystallographic direction rotation
+
+structure       bcc
+lattice_const   3.1652
+mass            183.84
+
+# Orient: x->[1-10], z->[110]
+new_z           1 1 0
+new_x           1 -1 0
+
+box_x           50
+box_y           100
+box_z           100
+box_mode        periodic
+
+epsilon         1.0e-6
+startnr         1
+outfile         W_bcc_110.imd
+output_format   imd
+
+# No cutting
+cut_norm1       1.0 0.0 0.0
+plane_distance1 0
+cutdir1         0
+cut_norm2       1.0 0.0 0.0
+plane_distance2 0
+cutdir2         0
