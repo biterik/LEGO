@@ -55,6 +55,9 @@ class LegoResult:
         return None
 
     def __repr__(self):
+        if not self.success:
+            return (f"LegoResult(success=False, returncode={self.returncode}, "
+                    f"stderr={self.stderr.strip()!r})")
         return (f"LegoResult(atoms={self.total_atoms}, "
                 f"box={self.box}, repeat={self.repeat_dist}, "
                 f"success={self.success})")
@@ -117,9 +120,11 @@ class Lego:
 
     def _run_file(self, param_file):
         """Run with an existing parameter file."""
+        param_path = Path(param_file).resolve()
         result = subprocess.run(
-            [self.binary, param_file],
-            capture_output=True, text=True)
+            [self.binary, str(param_path)],
+            capture_output=True, text=True,
+            cwd=str(param_path.parent))
 
         outfile = self._extract_outfile(param_file)
 
