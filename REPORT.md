@@ -1,12 +1,12 @@
 # biterik/LEGO — repo vitals
 
 ![stars](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2FLEGO%2Fvitals%2Fbadge%2Fstars.json) ![views/week](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbiterik%2FLEGO%2Fvitals%2Fbadge%2Fviews-week.json) 
-_Updated 2026-10-18T08:08:14Z (UTC) · machine-readable: [VITALS.json](VITALS.json) · full history: [history.ndjson](history.ndjson) · daily snapshots: [snapshots/](snapshots/)_
+_Updated 2026-10-19T09:02:48Z (UTC) · machine-readable: [VITALS.json](VITALS.json) · full history: [history.ndjson](history.ndjson) · daily snapshots: [snapshots/](snapshots/)_
 
 | | |
 |---|---|
 | Repository created | 2026-03-24 |
-| Tracked by repo-vitals since | 2026-06-25 (116 days)³ |
+| Tracked by repo-vitals since | 2026-06-25 (117 days)³ |
 
 
 ## Summary
@@ -15,7 +15,7 @@ _Updated 2026-10-18T08:08:14Z (UTC) · machine-readable: [VITALS.json](VITALS.js
 |---|---:|---:|---:|
 | Views | 4 | 4 | 7 |
 | Unique visitors¹ | 4 | 4 | 7 |
-| Clones | 172 | 353 | 418 |
+| Clones | 170 | 365 | 431 |
 | Stars gained | 0 | 0 | 1 |
 | Release downloads gained | 0 | 0 | 0 |
 
@@ -23,14 +23,14 @@ _Updated 2026-10-18T08:08:14Z (UTC) · machine-readable: [VITALS.json](VITALS.js
 
 ## Since tracking began
 
-Everything recorded so far, from 2026-06-25 (116 days) — the total, and the same total expressed as an average rate.
+Everything recorded so far, from 2026-06-25 (117 days) — the total, and the same total expressed as an average rate.
 
 | Metric | Total | Average / 30 d |
 |---|---:|---:|
 | Views | 7 | 1.8 |
 | Unique visitors¹ | 7 | 1.8 |
-| Clones | 418 | 108.1 |
-| Unique cloners¹ | 313 | 80.9 |
+| Clones | 431 | 110.5 |
+| Unique cloners¹ | 322 | 82.6 |
 | Stars gained | 1 | 0.3 |
 | Release downloads gained | 0 | 0.0 |
 
@@ -39,14 +39,14 @@ Averages are the total divided by days tracked, times 30 — not a projection.
 ## Trends — last 30 days
 
 ```
-views  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁██▁█▁▁▁█▁▁▁▁··  (4 total)
-clones ▆▂▅▃▃▂▁▁▅▁▁▁▁█▅▂▁▂▁▅▁▅▁▃▁▅▅▁··  (172 total)
+views  ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁██▁█▁▁▁█▁▁▁▁▁▁·  (4 total)
+clones ▂▅▃▃▂▁▁▅▁▁▁▁█▅▂▁▂▁▅▁▅▁▃▁▅▅▁▁▅·  (170 total)
 ```
 
 ('·' = day without data)
 
 Stars: **1** (+0 in 30 d, +0 in 7 d)
-**Conversion funnel (30 d):** 4 unique visitors → 125 unique cloners → 0 stars gained → 0 downloads gained
+**Conversion funnel (30 d):** 4 unique visitors → 124 unique cloners → 0 stars gained → 0 downloads gained
 
 ## Where visitors come from (14-day window)
 
@@ -83,7 +83,7 @@ Interactive dashboard: [index.html](index.html) on this branch (raw URLs don't
 render HTML — view it via GitHub Pages on the vitals branch, the repo-vitals
 hub, or locally: `git clone -b vitals … && python -m http.server`).
 A copy of this report named with the repo and today's date lives at
-[reports/biterik-LEGO-2026-10-18.md](reports/biterik-LEGO-2026-10-18.md)
+[reports/biterik-LEGO-2026-10-19.md](reports/biterik-LEGO-2026-10-19.md)
 — safe to download standalone.
 
 <sub>[repo-vitals](https://github.com/biterik/repo-vitals) by Erik Bitzek —
